@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="star">#F4FBFA</color>
+    <color name="cloud">#FFFFFF</color>
+    <color name="sun">#FFFFFF</color>
+    <color name="sky">#B8E1DE</color>
+    <color name="fog">#32ECFFFE</color>
+    <color name="landscape">#8FA3C4</color>
+
+    <color name="bg">#CFC6C6</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="circle_view">#CBD0D9</color>
+    <color name="green">#80089949</color>
+    <color name="transparent">#00000000</color>
+</resources>

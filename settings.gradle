@@ -1,0 +1,56 @@
+pluginManagement {
+    repositories {
+//        maven {
+//            url 'https://maven.zohodl.com/'
+//        }
+//
+//        maven {
+//            url "http://build/zoho_android/"
+//            allowInsecureProtocol true
+//        }
+//
+//        maven {
+//            url 'https://maven.zohodl.com/'
+//        }
+//
+//        maven {
+//            url "http://build/zoho_android/zohomobile_android/milestones/"
+//            allowInsecureProtocol true
+//        }
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+//        maven {
+//            url 'https://maven.zohodl.com/'
+//        }
+//
+//        maven {
+//            url "http://build/zoho_android/"
+//            allowInsecureProtocol true
+//        }
+//
+//        maven {
+//            url 'https://maven.zohodl.com/'
+//        }
+//
+//        maven {
+//            url "http://build/zoho_android/zohomobile_android/milestones/"
+//            allowInsecureProtocol true
+//        }
+        google()
+        mavenCentral()
+    }
+}
+
+
+//include(':xyz')
+//project(':xyz').projectDir = new File("/Users/rahul-18968/StudioProjects/zohomobile_android/source/library/RecyclerViewHelper")
+
+rootProject.name = "RTL"
+include ':app'

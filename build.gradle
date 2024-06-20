@@ -1,0 +1,51 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    ext {
+        appCompatVersion = '1.6.0-rc01'
+    }
+    repositories {
+        google()
+        mavenCentral()
+//        maven {
+//            url 'https://maven.zohodl.com/'
+//        }
+//
+//        maven {
+//            url "http://build/zoho_android/"
+//            allowInsecureProtocol true
+//        }
+//
+//        maven {
+//            url 'https://maven.zohodl.com/'
+//        }
+//
+//        maven {
+//            url "http://build/zoho_android/zohomobile_android/milestones/"
+//            allowInsecureProtocol true
+//        }
+    }
+    dependencies {
+//        classpath 'com.google.gms:google-services:4.4.2'
+        classpath "androidx.navigation:navigation-safe-args-gradle-plugin:2.7.7"
+        classpath "com.google.android.libraries.mapsplatform.secrets-gradle-plugin:secrets-gradle-plugin:2.0.1"
+
+    }
+}
+plugins {
+    id 'com.android.application' version '8.4.0' apply false
+    id 'org.jetbrains.kotlin.android' version '1.9.22' apply false
+
+}
+
+//allprojects {
+//    repositories {
+//        maven {
+//            url "http://build/zoho_android/"
+//            allowInsecureProtocol true
+//        }
+//
+//        maven {
+//            url 'https://maven.zohodl.com/'
+//        }
+//    }
+//}
